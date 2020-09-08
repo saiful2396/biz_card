@@ -1,4 +1,5 @@
 import 'package:biz_card/screen/calculator_screen.dart';
+import 'package:biz_card/screen/quiz_screen.dart';
 import 'package:biz_card/screen/quotes.dart';
 import 'package:flutter/material.dart';
 import 'screen/biz_card.dart';
@@ -10,11 +11,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: Calculate.id,
+      initialRoute: QuizScreen.id,
       routes: {
         BizCard.id: (_) => BizCard(),
         Quotes.id: (_) => Quotes(),
         Calculate.id: (_) => Calculate(),
+        QuizScreen.id: (_) => QuizScreen()
       },
     );
   }
