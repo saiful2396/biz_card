@@ -1,8 +1,9 @@
-import 'package:biz_card/screen/calculator_screen.dart';
-import 'package:biz_card/screen/quiz_screen.dart';
-import 'package:biz_card/screen/quotes.dart';
+import 'package:biz_card/screen/calculator/calculator_screen.dart';
+import 'package:biz_card/screen/movie/home_screen.dart';
+import 'package:biz_card/screen/quiz/quiz_screen.dart';
+import 'package:biz_card/screen/quotes/quotes.dart';
 import 'package:flutter/material.dart';
-import 'screen/biz_card.dart';
+import 'screen/bizcard/biz_card.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,12 +12,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: QuizScreen.id,
+      initialRoute: MovieListView.id,
       routes: {
         BizCard.id: (_) => BizCard(),
         Quotes.id: (_) => Quotes(),
         Calculate.id: (_) => Calculate(),
-        QuizScreen.id: (_) => QuizScreen()
+        QuizScreen.id: (_) => QuizScreen(),
+        MovieListView.id: (_) => MovieListView(),
       },
     );
   }
