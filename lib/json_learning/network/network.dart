@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:biz_card/models/post.dart';
+import 'package:biz_card/json_learning/model/post.dart';
 import 'package:http/http.dart';
 
 class Network {

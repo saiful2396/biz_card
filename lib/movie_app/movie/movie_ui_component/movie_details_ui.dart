@@ -1,5 +1,5 @@
-import 'package:biz_card/models/movie.dart';
-import 'package:biz_card/widget/constants.dart';
+import 'package:biz_card/movie_app/movie/models/movie.dart';
+import 'package:biz_card/movie_app/movie/util/constants.dart';
 import 'package:flutter/material.dart';
 
 class MovieDetailsThumbnail extends StatelessWidget {

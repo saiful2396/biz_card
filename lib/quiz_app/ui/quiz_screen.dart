@@ -1,4 +1,4 @@
-import 'package:biz_card/models/questions.dart';
+import 'package:biz_card/quiz_app/model/questions.dart';
 import 'package:flutter/material.dart';
 
 class QuizScreen extends StatefulWidget {

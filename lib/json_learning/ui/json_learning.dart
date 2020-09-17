@@ -1,5 +1,5 @@
-import 'package:biz_card/models/network.dart';
-import 'package:biz_card/models/post.dart';
+import 'package:biz_card/json_learning/model/post.dart';
+import 'package:biz_card/json_learning/network/network.dart';
 import 'package:flutter/material.dart';
 
 class JsonPractice extends StatefulWidget {
@@ -29,6 +29,7 @@ class _JsonPracticeState extends State<JsonPractice> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Json Learning'),
+        centerTitle: true,
       ),
       body: Center(
         child: FutureBuilder(

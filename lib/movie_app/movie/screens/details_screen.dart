@@ -1,7 +1,7 @@
-import 'package:biz_card/models/movie.dart';
-import 'package:biz_card/widget/constants.dart';
+import 'package:biz_card/movie_app/movie/models/movie.dart';
+import 'package:biz_card/movie_app/movie/util/constants.dart';
 import 'package:flutter/material.dart';
-import 'movie_ui_component/movie_details_ui.dart';
+import '../movie_ui_component/movie_details_ui.dart';
 
 class MovieListViewDetails extends StatelessWidget {
 

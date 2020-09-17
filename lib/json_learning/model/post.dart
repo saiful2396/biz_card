@@ -4,10 +4,10 @@ class PostList {
   PostList({this.posts});
 
   factory PostList.fromJson(List<dynamic>parsedJson){
-    List<Post> posts = List<Post>();
-    posts = parsedJson.map((e) => Post.fromJson(e)).toList();
+    List<Post> postsItem = List<Post>();
+    postsItem = parsedJson.map((e) => Post.fromJson(e)).toList();
 
-    return PostList(posts: posts);
+    return PostList(posts: postsItem);
   }
 }
 

@@ -1,7 +1,7 @@
-import 'package:biz_card/models/movie.dart';
-import 'package:biz_card/screen/movie/details_screen.dart';
-import 'package:biz_card/widget/constants.dart';
+import 'package:biz_card/movie_app/movie/models/movie.dart';
+import 'package:biz_card/movie_app/movie/util/constants.dart';
 import 'package:flutter/material.dart';
+import 'details_screen.dart';
 
 class MovieListView extends StatelessWidget {
   static const id = 'home_screen';
